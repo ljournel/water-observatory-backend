@@ -3,7 +3,7 @@ import numpy.ma as ma
 
 from sentinelhub import WcsRequest, MimeType, CustomUrlParam
 from sentinelhub import DownloadFailedException
-from sentinelhub.download import ImageDecodingError
+from sentinelhub.exceptions import ImageDecodingError
 from s2cloudless import CloudMaskRequest
 
 from skimage.filters import threshold_otsu
